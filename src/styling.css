@@ -60,5 +60,6 @@
 
 .linkToGit {
     color:#576F72;
-    
+    text-decoration: none;
+    font-size: 10px;
 }
