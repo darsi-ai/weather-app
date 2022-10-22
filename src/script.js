@@ -3,6 +3,9 @@ let days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunda
 let day = days[time.getDay()];
 let hour = time.getHours();
 let minutes = time.getMinutes();
+if (hour < 10){
+  hour = "0"+hour;
+}
 if (minutes < 10){
     minutes = "0"+minutes;
 }
